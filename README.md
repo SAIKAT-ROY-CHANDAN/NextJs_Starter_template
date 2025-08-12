@@ -1,37 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Next.js Starter Template
 
-## Getting Started
+A modern **Next.js** starter project with TypeScript, Tailwind CSS, and essential development tools pre-configured.  
+Perfect for quickly starting new projects with best practices.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Technology Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Framework:** Next.js 15 (App Directory)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **State & Forms:** React Hook Form, Zod for validation
+- **Dark Mode:** next-themes
+- **Component Library:** Radix UI, shadcn/ui (with Lucide icons)
+- **PDF Rendering:** react-pdf, @react-pdf/renderer
+- **Drag & Drop:** dnd-kit
+- **Charts:** Recharts
+- **Rich Text Editor:** Tiptap
+- **Swiper:** Swiper.js for carousels/sliders
+- **Other Utilities:** clsx, class-variance-authority, jwt-decode, file-saver, react-dropzone, react-day-picker, sonner (notifications), tailwind-merge, vaul (UI), motion (animation)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Key Packages
 
-## Learn More
+- **@radix-ui/react-***: Accordion, Avatar, Checkbox, Dialog, Dropdown Menu, Label, Popover, Progress, Scroll Area, Select, Separator, Slot, Switch, Tabs, Toggle, Toggle Group, Tooltip  
+- **@tiptap/extension-***: Image, Link, Text Align, Underline, Starter Kit, pm, react  
+- **Icons:** @tabler/icons-react, lucide-react  
+- **Forms:** @hookform/resolvers (Integrates Zod with React Hook Form)  
+- **Tables:** @tanstack/react-table (Advanced table utilities)  
+- **TypeScript Types:** @types/* for various packages  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧩 Component Library & Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **shadcn/ui:** Customizable UI components, configured with the New York style and Lucide icon library (see `components.json`)  
+- **Aliases:** Simplified imports for components, utils, ui, lib, and hooks  
+- **Tailwind CSS:** Configured with CSS variables and a neutral base color, styles in `src/app/globals.css`  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ⚙️ Development Tools
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **ESLint:** Linting with Next.js config  
+- **TypeScript:** Static typing  
+- **PostCSS:** Used with Tailwind CSS  
+- **tw-animate-css:** Tailwind animation utilities  
 
+---
+
+## 🔒 Other Notable Configurations
+
+- **next.config.ts:** Custom image remote patterns, experimental server actions with increased body size limit  
+- **Fully Responsive:** Mobile-first design  
+- **Clean Folder Structure:** Organized for scalability and maintainability  
+
+---
